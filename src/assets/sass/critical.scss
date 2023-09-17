@@ -161,7 +161,7 @@
         content: '';
         position: absolute;
         display: block;
-        background: #000;
+        background: var(--primaryLight);
         opacity: 1;
         /* so it sits on top of the border */
         top: -1px;
@@ -338,7 +338,7 @@
       content: '';
       position: absolute;
       display: block;
-      background: var(--secondary);
+      background: var(--primaryLight);
       opacity: 1;
       /* so it sits on top of the border */
       top: -1px;

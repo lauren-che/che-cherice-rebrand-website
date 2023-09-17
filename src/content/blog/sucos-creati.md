@@ -1,53 +1,26 @@
 ---
-title: Sucos Creati
-description: Lorem markdownum Talia. Carinae equis.
-author: Code Stitch
-date: 2023-06-08T15:27:34.591Z
+title: Our Epic 18 Day Vacation In Playa Del Carmen
+description: Playa del Carmen was our canvas for 18 days, filled with vibrant
+  neighborhoods, local flavors, and thrilling adventures
+author: Ché & Cherice
+date: 2023-09-17T21:03:49.420Z
 tags:
-    - post
-image: /assets/images/blog/landing.jpg
+  - post
+image: /assets/images/blog/img_0259-1-.jpg
 imageAlt: Kitchen
 ---
+We had this itch, you know? A craving to really soak up Playa's vibe, like *really* feel its heartbeat. So, we decided to chuck the fancy resorts and get all cozy in Airbnb pads across different neighborhoods. It was like we were tuning into each area's vibe, feeling its energy, and getting a taste of what makes Playa tick.
 
-## Hospes meus
+Our Airbnb game was strong—right smack in the heart of Playa del Carmen. I'm talking about steps away from shops, restaurants, beaches, and the legendary 5th Ave. We'd stroll around, soak in the pulse of the place, and it was like the town was telling us its secrets through its vibe.
 
-Lorem markdownum Talia. [Carinae equis](http://lapsasaturnia.com/inducitest).
+![airbnb.png](https://cdn.sanity.io/images/amjqlrk4/production/6e94e7aec02d96c6c7027dfd3b14adaa6aea0a8f-1058x502.png?rect=153,0,753,502&w=600&h=400&fit=fillmax&dpr=2)
 
-Illa _fatentur parenti_ formicas dryadas formae cum sexque Thebae exspectat! Turaque lacrimabile patriam aristis. Aggere cum tecta, culpatque potest; utque et
-os maiores carmine velle altis de signorum. Prosilit alta credo conlapsa erat, coniugis umerique errabat pulsus detestatur! Te dubitat cursu?
+Ah, the food scene. We're talking traditional Mexican dishes that had stories deeper than the ocean, seafood so fresh you'd think it just hopped out of the water. Those street tacos? They became our daily ritual. And the seafood ceviche? Picture the ocean doing a salsa dance right on your tongue. And can we talk about the local eats? Y'all, they knew how to whip up magic without breaking the bank.
 
-Recentes actus currebam exercet exeat tractoque, aethera accusasse **residunt vellentem** Hesperio. Tacitaque lumina _totumque neptis_, mihi genitoris totoque
-nec vigili.
+Oh, but shopping? It was like going on a treasure hunt every day. Markets and shops were like a treasure trove of all things imaginable. And don't even get me started on grocery shopping. Let's just say it became a whole adventure of its own. And when we needed to get around, taxis were our wingmen. Don't forget to bargain like a boss for the fare, so you don't feel like a tourist-taxi-target. If the deal doesn't work with your budget, walk away!
 
-## Huc est erat
+Around day 13, the beach life needed a break and we craved some adventure. Cue an ATV-packed excursion—jungle cruising, Cenote swimming, and zip-lining in the Tulum wilderness. ATV riding? Jungle zooming at its finest. Cenote Azul? Crystal-clear waters in a secret cave oasis, complete with bat buddies. Zip-lining? Heart-pounding, sweaty palms, and eyes shut—yeah, we were scaredy-cats. We tackled the lower zip-lines and gave the 100-foot beast a pass.
 
-Visa tantis eris nec mox Tydides auras, sarisa arbor, omen paternos curvataque pectore tela decimo Nilus. Postquam _capiat_ Cyllenius unde redditur
-[inmensum](http://noletiacet.net/aquas-moles) pedibus. Sine quaerant fronde solvo Phoebus iuncique haeret, addit qui obsisto quam dum.
+Our verdict on those 18 days in Playa del Carmen? Game-changing, for sure. We took the culture plunge, splashed in town vibes, and left our mark on the Playa storybook. Wanna scratch that culture, history, and adventure itch? Playa del Carmen's got your back. And hey, you wanna rock the local style? Nab an Airbnb in a cozy neighborhood, talk food like it's love poetry, and hunt down Playa's hidden treasures for a next-level adventure.
 
-## Et erat
-
-Urbe quae est noscar illi sues praeterque ipsa clipeum, deus terrebit longo solibus, collocat trahit **glomeravit**: montes. Petisses silvas ut, leve
-[est mei serpit](http://nubespetitis.org/) referuntur nostri, esse tellus Cernis Periphanta belli, hoc sunt.
-
-Rebus vestem tota relictas forte capioque: vel unda servire concitat acervos nubila resonis et unde rupit, in? Ingens omnia, me fit mortalibus viderit elidunt,
-et queat subvolat; in tuas vitat; ut.
-
-1. Dum et hanc honore ponto parias undam
-2. Iuvenci toros nigro numquamque demittitur pro funeribus
-3. Dolet fluitque
-
-## Sequitur cortice teneo
-
-Lapsus flammae. Relatus ille irascitur silet querella tacito: misisset! Tamen arduus et, capitis quae, trepidus insequitur illa pactaeque.
-
--   Se metu
--   Videntur in Stygia tellure
--   Concordare spatiosum
--   Iove progenuit
-
-Praeter vos: nubibus ceu **medio** qui corpore hoc in quid hanc, inpia meae prior Hecabesque illa. Cum hinc rasa tardius litora despectabat inplerant longis;
-est [vestibus e](http://www.offensa-vana.com/sororibus). Vires auras pedem silvas sumpsit utinam famulis volucris; _crimina cupidine_?
-
-Hostem et pudibundaque quam intima dixit repulsae simul multorumque inde, nymphas ramos paternis. Coepit [Hodites](http://manus.io/cum-scythicis.aspx) ab suae
-remisso prius cingentibus iussos vincla concordare! Precaris membra substitit communis Rhodopeius fieri _versus in natorum_, est es. Vident paribus an ipse
-illis, [amplexo](http://nisi.com/) ramaliaque Iovis, potes **simque** omnia.
+![playa.png](https://cdn.sanity.io/images/amjqlrk4/production/20a6ed5509e4a7306721e401182dc90271294a69-991x502.png?rect=120,0,753,502&w=600&h=400&fit=fillmax&dpr=2)
