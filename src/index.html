@@ -1,7 +1,7 @@
 ---
 title: 'Pixel Perfect Websites'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/landing.jpg'
+preloadImg: '/assets/images/landing.webp'
 permalink: '/'
 eleventyNavigation:
   key: Home
@@ -45,21 +45,17 @@ eleventyNavigation:
       <span class="cs-topper">Millennial Marriage with a Twist</span>
       <h1 class="cs-title">Lifestyle Creators</h1>
       <p class="cs-text">
-        Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius.
-        Nibh tortor id aliquet lectus proin nibh condimentum.
+        Come along with us on a remarkable journey where we infuse tradition
+        with innovation. We'll be sharing our life stories, thrilling
+        adventures, and profound insights on creating a contemporary, purposeful
+        partnership. Immerse yourself in our world and uncover how we're
+        reshaping the very essence of couplehood in today's ever-changing
+        landscape.
       </p>
-      <a href="/about" class="cs-button-solid">Explore More</a>
+      {# <a href="/about" class="cs-button-solid">Explore More</a> #}
       <a href="/contact" class="cs-button-transparent">
-        <img
-          class="cs-img"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-          alt="play icon"
-          width="17"
-          height="17"
-        />
-        Get in Touch
+        <i class="ri-play-circle-fill circle-arrow"></i>
+        Listen To Podcast
       </a>
     </div>
   </div>
@@ -67,11 +63,11 @@ eleventyNavigation:
   <!-- Background Image -->
   <picture class="cs-picture">
     <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp" />
-    <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg" />
+    <source media="(min-width: 601px)" srcset="/assets/images/landing.webp" />
     <img
       aria-hidden="true"
       decoding="async"
-      src="/assets/images/landing.jpg"
+      src="/assets/images/landing.webp"
       alt="new home"
       width="2500"
       height="1667"
@@ -84,6 +80,7 @@ eleventyNavigation:
 <!--                  Services                    -->
 <!-- ============================================ -->
 
+{#
 <section id="services" class="services">
   <!-- Get Icons From flaticon.com -->
   <div class="card">
@@ -138,6 +135,7 @@ eleventyNavigation:
     </p>
   </div>
 </section>
+#}
 
 <!-- ============================================ -->
 <!--                 Side By Side                 -->
@@ -150,16 +148,13 @@ eleventyNavigation:
       <picture class="cs-picture cs-picture1">
         <source
           media="(max-width: 600px)"
-          srcset="/assets/images/cabinets2-m.jpg"
+          srcset="/assets/images/story-m.webp"
         />
-        <source
-          media="(min-width: 601px)"
-          srcset="/assets/images/cabinets2.jpg"
-        />
+        <source media="(min-width: 601px)" srcset="/assets/images/story.webp" />
         <img
           aria-hidden="true"
           decoding="async"
-          src="/assets/images/cabinets2.jpg"
+          src="/assets/images/story.webp"
           alt="cabinets"
           loading="lazy"
           width="400"
@@ -169,16 +164,16 @@ eleventyNavigation:
       <picture class="cs-picture cs-picture2">
         <source
           media="(max-width: 600px)"
-          srcset="/assets/images/construction-m.jpg"
+          srcset="/assets/images/story-2-m.webp"
         />
         <source
           media="(min-width: 601px)"
-          srcset="/assets/images/construction.jpg"
+          srcset="/assets/images/story-2.webp"
         />
         <img
           aria-hidden="true"
           decoding="async"
-          src="/assets/images/construction.jpg"
+          src="/assets/images/story-2.webp"
           alt="house"
           loading="lazy"
           width="400"
@@ -188,27 +183,28 @@ eleventyNavigation:
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
-      <span class="cs-topper">About Us</span>
-      <h2 class="cs-title">About Company Title</h2>
+      <span class="cs-topper"><span>Meet</span> Ché & Cherice</span>
+      <h2 class="cs-title">Our Story</h2>
       <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class
-        officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur
-        et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent
-        nonatourean olei aptent taciti sociosqu ad litora torquent per.
+        Our paths crossed in September 2020, leading us into a profound love
+        story, woven into the fabric of the universe's grand design. Fueled by
+        passion and a commitment to spreading love within the LGBTQ+ community,
+        we began our transformative journey, launching a YouTube channel just
+        one month later.
       </p>
       <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class
-        officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur
-        et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent
-        nonatourean olei aptent taciti sociosqu ad litora torquent per.
+        Since marrying in August 2022 and embracing Ohio as our home, our shared
+        wanderlust has taken us on incredible adventures worldwide, deepening
+        our bond and creating cherished memories.
       </p>
       <div class="cs-flex-group">
         <p class="cs-flex-p">
-          In consequat tincidunt turpis sit amet imperdiet. Praesent Classei
-          consequat tincidunt turpis sit amet imperdiet for mind.
+          Today, our hearts are filled with joy as we curate must-haves for our
+          home, venture into the wonders of foreign lands, and cherish the
+          boundless growth we experience together.
         </p>
-        <span class="cs-name">Justin Time</span>
-        <span class="cs-job">CEO-Founder</span>
+        {# <span class="cs-name">Justin Time</span> #} {#
+        <span class="cs-job">CEO-Founder</span> #}
         <img
           class="cs-quote-icon"
           loading="lazy"
@@ -219,7 +215,10 @@ eleventyNavigation:
           height="77"
         />
       </div>
-      <a href="/about" class="cs-button-solid">More About Us</a>
+      <a href="/about" class="cs-button-solid"
+        >Learn More About Us
+        <i class="ri-arrow-right-double-line right-arrow"></i>
+      </a>
     </div>
   </div>
 </section>
@@ -235,16 +234,16 @@ eleventyNavigation:
       <picture class="cs-picture cs-picture1">
         <source
           media="(max-width: 600px)"
-          srcset="/assets/images/construction-m.jpg"
+          srcset="/assets/images/blog-1-m.webp"
         />
         <source
           media="(min-width: 601px)"
-          srcset="/assets/images/construction.jpg"
+          srcset="/assets/images/blog-1.webp"
         />
         <img
           aria-hidden="true"
           decoding="async"
-          src="/assets/images/construction.jpg"
+          src="/assets/images/blog-1.webp"
           alt="house"
           loading="lazy"
           width="400"
@@ -254,16 +253,13 @@ eleventyNavigation:
       <picture class="cs-picture cs-picture2">
         <source
           media="(max-width: 600px)"
-          srcset="/assets/images/cabinets2-m.jpg"
+          srcset="/assets/images/blog-m.webp"
         />
-        <source
-          media="(min-width: 601px)"
-          srcset="/assets/images/cabinets2.jpg"
-        />
+        <source media="(min-width: 601px)" srcset="/assets/images/blog.webp" />
         <img
           aria-hidden="true"
           decoding="async"
-          src="/assets/images/cabinets2.jpg"
+          src="/assets/images/blog.webp"
           alt="cabinets"
           loading="lazy"
           width="400"
@@ -274,23 +270,30 @@ eleventyNavigation:
     <!-- Right Content Section-->
     <div class="cs-right">
       <span class="cs-topper">SEO Ranking</span>
-      <h2 class="cs-title">Talk about a main service keyword</h2>
+      <h2 class="cs-title">
+        Lifestyle Bloggers & Married Millennial Podcasters
+      </h2>
       <p class="cs-text">
-        In consequat tincidunt turpis sit amet imperdiet. Praesent Class
-        officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur
-        et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent
-        nonatourean olei aptent taciti sociosqu ad litora torquent per.
+        Welcome to loving space, where we're all about celebrating life, love,
+        and adventure. We are not just Lifestyle Bloggers – we are storytellers
+        sharing our travel discoveries with you. Whether we are savoring global
+        flavors, soaking up diverse cultures, or spilling the tea on the latest
+        lifestyle goods, we've got you covered.
       </p>
       <p class="cs-text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur,
-        iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi
-        fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores
-        ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo
-        quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Doloribus modi laudantium voluptatibus rem libero
-        error minus quia eligendi sapiente eos.
+        And hey, we're not stopping there. As Married Millennial Podcasters,
+        we're diving deep into the world of modern-day love and marriage, all
+        while keeping it real and oh-so-relatable. From practical relationship
+        advice to the occasional laugh-out-loud moment, our podcast is your safe
+        space to explore the beauty and complexities of millennial love.
       </p>
-      <a href="/blog" class="cs-button-solid">Read our Blog</a>
+      <a href="/blog" class="cs-button-solid"
+        >Read Our Blog <i class="ri-arrow-right-double-line right-arrow"></i>
+      </a>
+      <a href="/contact" class="cs-button-transparent">
+        <i class="ri-play-circle-fill circle-arrow"></i>
+        Listen To Podcast
+      </a>
     </div>
   </div>
 </section>

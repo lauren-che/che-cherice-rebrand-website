@@ -4,73 +4,162 @@ description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'about/'
 eleventyNavigation:
-    key: About Ché & Cherice
-    order: 200
+  key: About Ché & Cherice
+  order: 200
 ---
 
-{% extends "layouts/base.html" %}
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/css/about.css" />
+{# link below for social icons from remix icons cdn #}
+<link
+  href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+{% endblock %} {% block body %}
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
 
-{% block head %}
-    <link rel="stylesheet" href="/css/about.css">
-{% endblock %}
+<section id="int-hero">
+  <h1 id="home-h">Get To Know Us</h1>
+  <picture>
+    <source
+      media="(max-width: 600px)"
+      srcset="/assets/images/about-banner-m.webp"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="/assets/images/about-banner.webp"
+    />
+    <img
+      aria-hidden="true"
+      decoding="async"
+      src="/assets/images/about-banner.webp"
+      alt="modern living room"
+      loading="eager"
+      width="2500"
+      height="1667"
+    />
+  </picture>
+</section>
 
-{% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                 Get To Know Us                  -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
+<section id="why-choose-892">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">Who Is Ché & Cherice</h2>
+      <p class="cs-text">
+        We are Ché & Cherice and this is our space where modern life, travel,
+        and everyday essentials come together in perfect harmony. We are married
+        millennials with a passion for exploring the world, cherishing the
+        little things, and sharing our journey with you.
+      </p>
+      <p class="cs-text">
+        We've always been captivated by the power of storytelling through
+        visuals and words. Our journey began with capturing moments from our
+        daily lives, sharing snippets of our vacations, and connecting with a
+        community that felt like family. Now, as lifestyle digital creators,
+        we've embarked on a new chapter, where we're excited to dive deeper into what makes life truly special.
+      </p>
+    </div>
 
-    </section>
+    <a href="/contact" class="cs-button-solid"
+      >Contact Us
+      <i class="ri-arrow-right-double-line right-arrow"></i>
+    </a>
+    <!--Floating Arrow Graphic-->
+    <img
+      class="cs-floater"
+      src="/assets/images/tan-arrow.svg"
+      alt="arrow"
+      loading="lazy"
+      decoding="async"
+      aria-hidden="true"
+    />
+  </div>
+</section>
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                 Collaborations                  -->
+<!-- ============================================ -->
 
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
+<section id="why-choose-289">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Creative Content</span>
+                <h2 class="cs-title">Where Everyday Living Meets Collaborations</h2>
             </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+            <p class="cs-text">
+                We've had the privilege of engaging in remarkable collaborations with outstanding companies. We take immense pride in teaming up with brands that align seamlessly with our daily lives, values, and authenticity, ensuring that each partnership is a genuine reflection of who we are and what we cherish.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/live-line.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Brand Partnerships</h3>
+                <p class="cs-item-text">
+                    We welcome brand partnerships that resonate with our authentic lifestyle, embracing opportunities to craft compelling narratives that genuinely connect with our audience.
                 </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/mic-2-line.svg" alt="icon" width="40" height="48">
+                <h3 class="cs-h3">Digital Content Creators</h3>
+                <p class="cs-item-text">
+                    We collaborate closely with brands to curate digital content across Instagram, Our Blog, and Our Podcast, weaving captivating narratives that resonate with our dedicated community.
                 </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/camera-line.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Brand Collaborations</h3>
+                <p class="cs-item-text">
+                    We embrace brand collaborations by welcoming thoughtfully curated PR packages, fostering unique and authentic connections with brands that seamlessly integrate into our daily lives.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+        
+    <!-- ============================================ -->
+<!--                    Stats                     -->
+<!-- ============================================ -->
+
+<section id="stats-1229">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Our Stats At A Glance</h2>
             </div>
         </div>
-    </section>
+    </div>
 
-    {% include 'components/cta.html' %}
+    <ul class="cs-stat-group">
+        <li class="cs-stat">
+            <span class="cs-desc">Instagram</span>
+            <span class="cs-number">21.6k</span>
+        </li>
+        <li class="cs-stat">
+            <span class="cs-desc">YouTube Subscribers</span>
+            <span class="cs-number">6k+</span>
+        </li>
+        <li class="cs-stat">
+            <span class="cs-desc">YouTube Views</span>
+            <span class="cs-number">1M+</span>
+        </li>
+        <li class="cs-stat">
+            <span class="cs-desc">Podcast Listeners</span>
+            <span class="cs-number">3k+</span>
+        </li>
+        <li class="cs-stat">
+            <span class="cs-desc">Facebook Likes</span>
+            <span class="cs-number">600+</span>
+        </li>
+    </ul>
+</section>
+                                    
+                                
 
-{% endblock %}
+{% include 'components/cta.html' %} {% endblock %}

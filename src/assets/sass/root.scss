@@ -9,7 +9,7 @@
   // Website colors
   :root {
     --primary: #deb887;
-    --primaryLight: #f4f0ec;
+    --primaryLight: #efddcb;
     --secondary: #292f36;
     --secondaryLight: #292f36;
     --headerColor: #1a1a1a;
@@ -19,11 +19,11 @@
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
-    --headerFontSize: clamp(1.9375rem, 3.9vw, 4.0625rem);
+    --headerFontSize: clamp(1.9375rem, 3.79vw, 4rem);
     --bodyFontSize: 1rem;
 
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+    --sectionPadding: clamp(3.75rem, 7.82vw, 7.25rem) 1rem;
   }
 
   // Text styles - can be replaced using CodeStitch's "Content Flair" Stitches
@@ -44,6 +44,7 @@
     margin: 0 auto calc(16 / 16 * 1rem);
     color: var(--headerColor);
     position: relative;
+    font-family: 'DMSerifDisplay';
   }
 
   .cs-text {
@@ -55,11 +56,21 @@
     margin: 0 auto;
   }
 
+  .cs-text-2 {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    font-weight: 100;
+    width: 100%;
+    color: var(--secondary);
+    margin: 0 auto calc(16 / 16 * 1rem);
+    //  position: relative;
+    // display: block;
+  }
+
   // Button - can be replaced using CodeStitch's "Button" Stitches
   .cs-button-solid {
     font-size: calc(16 / 16 * 1rem);
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: 100;
     text-decoration: none;
     display: inline-block;
     width: auto;
@@ -99,11 +110,17 @@
       transition: width 0.3s;
     }
   }
+  .right-arrow {
+    color: var(--primary);
+  }
+  .circle-arrow {
+    color: var(--primary);
+    padding-right: 0.4rem;
+  }
 }
 
 /* Fonts and general styles */
 @media only screen and (min-width: 0em) {
-
   /* DMSerifDisplay-regular */
   @font-face {
     font-family: 'DMSerifDisplay';
@@ -292,40 +309,40 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-	  gap: calc(8 / 16 * 1rem);
-	  padding-top: 3rem;
+      gap: calc(8 / 16 * 1rem);
+      padding-top: 3rem;
     }
 
-	.cs-social {
+    .cs-social {
       padding-right: 0.5rem;
-	  text-transform: uppercase;
+      text-transform: uppercase;
     }
 
-    .cs-logo {
-      width: 40%;
-      max-width: calc(146 / 16 * 1rem);
-      height: 100%;
-      margin: 0 auto 0 0;
-      padding: 0;
-      /* prevents padding from affecting height and width */
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 10;
+    // .cs-logo {
+    //   width: 40%;
+    //   max-width: calc(146 / 16 * 1rem);
+    //   height: 100%;
+    //   margin: 0 auto 0 0;
+    //   padding: 0;
+    //   /* prevents padding from affecting height and width */
+    //   box-sizing: border-box;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   z-index: 10;
 
-      img {
-        width: 100%;
-        height: 100%;
-        /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
-        object-fit: contain;
-        /* places the image to the left edge of the parent */
-        object-position: left;
-      }
-    }
+    //   img {
+    //     width: 100%;
+    //     height: 100%;
+    //     /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
+    //     object-fit: contain;
+    //     /* places the image to the left edge of the parent */
+    //     object-position: left;
+    //   }
+    // }
 
-	
-	.icon-ig {
+    // soccial media icon animation
+    .icon-ig {
       width: 30px;
       height: 30px;
       text-decoration: none;
@@ -367,6 +384,7 @@
       }
     }
 
+    // soccial media icon animation
     .icon-fb {
       width: 30px;
       height: 30px;
@@ -409,6 +427,7 @@
       }
     }
 
+    // soccial media icon animation
     .icon-yt {
       width: 30px;
       height: 30px;
@@ -451,6 +470,7 @@
       }
     }
 
+    // soccial media icon animation
     .icon-p {
       width: 30px;
       height: 30px;
@@ -472,10 +492,10 @@
     .icon-p.icon--pinterest:hover {
       background-image: radial-gradient(
         circle at 30% 107%,
-        #E72B1C 0%,
-        #E72B1C 45%,
-        #E72B1C 60%,
-        #E72B1C 100%
+        #e72b1c 0%,
+        #e72b1c 45%,
+        #e72b1c 60%,
+        #e72b1c 100%
       );
     }
 
@@ -711,7 +731,8 @@
       position: relative;
       color: var(--bodyTextColorWhite);
       &.cs-active {
-        .cs-drop-ul, .cs-social {
+        .cs-drop-ul,
+        .cs-social {
           height: auto;
           opacity: 1;
           visibility: visible;
@@ -970,6 +991,7 @@
       padding-left: 1.5rem;
     }
 
+    // soccial media icon animation
     .icon-ig {
       width: 30px;
       height: 30px;
@@ -1012,6 +1034,7 @@
       }
     }
 
+    // soccial media icon animation
     .icon-fb {
       width: 30px;
       height: 30px;
@@ -1054,6 +1077,7 @@
       }
     }
 
+    // soccial media icon animation
     .icon-yt {
       width: 30px;
       height: 30px;
@@ -1096,6 +1120,7 @@
       }
     }
 
+    // soccial media icon animation
     .icon-p {
       width: 30px;
       height: 30px;
@@ -1117,10 +1142,10 @@
     .icon-p.icon--pinterest:hover {
       background-image: radial-gradient(
         circle at 30% 107%,
-        #E72B1C 0%,
-        #E72B1C 45%,
-        #E72B1C 60%,
-        #E72B1C 100%
+        #e72b1c 0%,
+        #e72b1c 45%,
+        #e72b1c 60%,
+        #e72b1c 100%
       );
     }
 
