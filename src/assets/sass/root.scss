@@ -23,7 +23,7 @@
     --bodyFontSize: 1rem;
 
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75rem, 6vw, 7.25rem) 1rem;
+    --sectionPadding: clamp(3.75rem, 6.5vw, 7.25rem) 1rem;
   }
 
   // Text styles - can be replaced using CodeStitch's "Content Flair" Stitches
@@ -127,29 +127,40 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-      url('src/assets/fonts/DMSerifDisplay-Regular.woff2') format('woff2'),
+      url('/assets/fonts/DMSerifDisplay-Regular.woff2') format('woff2'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('ssrc/assets/fonts/DMSerifDisplay-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('/assets/fonts/DMSerifDisplay-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  /* Jost-regular */
+
+  /* roboto-regular - latin */
   @font-face {
-    font-family: 'Jost';
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 400;
     src: local(''),
-      url('src/assets/fonts/Jost-VariableFont_wght.woff2') format('woff2'),
+      url('/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('src/assets/fonts/Jost-VariableFont_wght.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('/assets/fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  /* PetitFormalScript-regular */
+  /* roboto-700 - latin */
   @font-face {
-    font-family: 'PetitFormalScript';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+      url('/assets/fonts/roboto-v29-latin-700.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('/assets/fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     src: local(''),
-      url('src/assets/fonts/PetitFormalScript-Regular.woff2') format('woff2'),
+      url('/assets/fonts/roboto-v29-latin-900.woff2') format('woff2'),
       /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('src/assets/fonts/PetitFormalScript-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('/assets/fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
   body,
