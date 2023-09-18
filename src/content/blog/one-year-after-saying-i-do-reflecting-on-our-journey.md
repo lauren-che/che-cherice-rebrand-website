@@ -6,7 +6,8 @@ author: Ché & Cherice
 date: 2023-09-17T20:41:59.904Z
 tags:
   - post
-image: /assets/images/blog/1year-1-1-.png
+  - featured
+image: /assets/images/blog/1year-1-1-1-.png
 imageAlt: Ché & Cherice in Playa Del Carmen
 ---
 Who would've thought that a simple TikTok message could set off a rollercoaster ride that lasted a whole year? Yep, you read that right. We're here, 365 days later, celebrating not just one year of marriage bliss but also a whole bunch of other unexpected adventures that came our way!

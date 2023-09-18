@@ -6,7 +6,7 @@ author: Ché & Cherice
 date: 2023-09-17T21:03:49.420Z
 tags:
   - post
-image: /assets/images/blog/img_0259-1-.jpg
+image: /assets/images/blog/img_0259-2-.jpg
 imageAlt: Kitchen
 ---
 We had this itch, you know? A craving to really soak up Playa's vibe, like *really* feel its heartbeat. So, we decided to chuck the fancy resorts and get all cozy in Airbnb pads across different neighborhoods. It was like we were tuning into each area's vibe, feeling its energy, and getting a taste of what makes Playa tick.
