@@ -160,14 +160,13 @@
   }
 }
 
-
 /*-- -------------------------- -->
 <---         Get To Know Us       -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #why-choose-892 {
+  #about-us {
     /* Centers Button */
     text-align: center;
     padding: var(--sectionPadding);
@@ -353,7 +352,7 @@
 
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #why-choose-892 {
+  #about-us {
     .cs-container {
       max-width: calc(1280 / 16 * 1rem);
     }
