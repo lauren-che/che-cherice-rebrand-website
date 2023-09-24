@@ -8,9 +8,10 @@ date: 2023-09-22T17:50:39.976Z
 tags:
   - post
   - featured
-image: /assets/images/blog/manny-pantoja-10bgcz0qkto-unsplash-1-1-.jpg
+image: /assets/images/blog/vacation-banner.jpg
 imageAlt: Laptop on a Lake
 ---
+
 Today, we're diving deep into a topic that hits close to home—work-life balance, even when we're supposed to be soaking in the sunshine and sipping on those vacation vibes. So, grab your virtual passport, and let's unpack how to master that fine art of living our best lives while keeping work from creeping into our vacation sanctuaries.
 
 Picture this: You've finally carved out time for a well-deserved getaway. Sand between your toes, a fruity drink in hand, and the soothing sound of waves as your backdrop. But wait, there's your phone, buzzing with work emails and to-dos. We have been there, and we feel you. Balancing the pull of work and the pull of relaxation can be a challenge. But guess what? It's not impossible.
@@ -27,6 +28,4 @@ Last but definitely not least, make a commitment to yourself. It's a self-love p
 
 So, there you have it, queens. Work-life balance on vacation isn't just a buzzword; it's a mantra of self-care. Remember, you deserve every ounce of the relaxation you've carved out for yourself. Own it, protect it, and embrace every moment. Now, go forth, conquer that vacation, and let your glow shine brighter than ever.
 
-sara-dubler-Koei_7yYtIo-unsplash.jpg
-
-![sara-dubler-Koei_7yYtIo-unsplash.jpg](https://cdn.sanity.io/images/amjqlrk4/production/b4b5c28beca7e67c70bdfe2fa2847a3b6fa829f2-3456x2304.jpg?w=600&h=400&fit=fillmax&dpr=2)
+![Laptop On The Lake](/assets/images/blog/vacation-hacks-interior.jpg)

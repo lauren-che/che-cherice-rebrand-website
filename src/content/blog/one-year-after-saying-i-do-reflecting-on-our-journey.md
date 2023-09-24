@@ -7,9 +7,10 @@ date: 2023-09-17T20:41:59.904Z
 tags:
   - post
   - featured
-image: /assets/images/blog/1year-1-1-1-.png
+image: /assets/images/blog/1year-banner.png
 imageAlt: Ché & Cherice in Playa Del Carmen
 ---
+
 Who would've thought that a simple TikTok message could set off a rollercoaster ride that lasted a whole year? Yep, you read that right. We're here, 365 days later, celebrating not just one year of marriage bliss but also a whole bunch of other unexpected adventures that came our way!
 
 If you've been rocking with us since the start of our YouTube escapades, you probably know the question that's been on everyone's lips: "**So, when's the big day?"** Seriously, it's like every comment and every DM on Instagram has been asking us that non-stop. But honestly, it's been kinda cool; we love that you all are as excited about our journey as we are. And when we finally spilled the beans about getting hitched, the amount of love we got from our online fam was mind-blowing.
@@ -34,4 +35,4 @@ Catch you later!
 
 Byeeeeee - Cherice
 
-![1 Year.png](https://cdn.sanity.io/images/amjqlrk4/production/e67f5e8c260617b59a371376332e118d78868c62-846x502.png?rect=47,0,753,502&w=600&h=400&fit=fillmax&dpr=2)
+![Collage Image of Ché & Cherice](/assets/images/blog/1year-interior.png)

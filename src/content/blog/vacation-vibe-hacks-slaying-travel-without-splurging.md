@@ -1,14 +1,15 @@
 ---
-title: "Vacation Vibe Hacks: Slaying Travel Without Splurging!"
+title: 'Vacation Vibe Hacks: Slaying Travel Without Splurging!'
 description: Discover how to elevate your travel game without emptying your
   wallet through savvy tips on accommodation and local experiences
 author: Ché & Cherice
 date: 2023-09-18T14:44:40.503Z
 tags:
   - post
-image: /assets/images/blog/yang-wewe-ube-m4bbxjw-unsplash-1-1-.jpg
+image: /assets/images/blog/vacation-hacks-banner.jpg
 imageAlt: Poolside Vibes
 ---
+
 Hey there, beautiful souls! Lets dive into the world of travel and make those vacation dreams a reality without blowing up your bank account? We gotchu friend! Get ready to sip on some money-saving wisdom and soak up the joy of a fabulous getaway.
 
 Now, let's start with where you'll rest your gorgeous head. Say hello to Airbnb, the wallet-friendly alternative to those pricey hotels and resorts. Not only are these rentals easier on your budget, but they also give you a real taste of local life. Living like a local? Yes, please! Here are a few gems to make your Airbnb journey a breeze:
@@ -33,6 +34,4 @@ Wanna zoom around without emptying your pockets? Say hi to the ADO bus if you ar
 
 In a nutshell, lovelies, travel doesn't have to cost a fortune. With a dash of planning and these insider gems, you can have that epic vacation without breaking the bank. Airbnb coziness, grocery store savvy, free events, cheap travel adventures, and beach days that don't cost a ton—get ready for a vacay that's all about YOU. So toss in those outfits and book that flight sis!
 
-
-
-![yuliya-pankevich-oyxsG2Lh_uA-unsplash.jpg](https://cdn.sanity.io/images/amjqlrk4/production/40e16f05e584e922cf1d2021067ac1b7b8a01ac4-4032x3024.jpg?rect=0,168,4032,2688&w=600&h=400&fit=fillmax&dpr=2)
+![Vacation Vibe Hacks](/assets/images/blog/vacation-hacks-interior.jpg)
