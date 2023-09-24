@@ -4,7 +4,6 @@
 
 <header id="cs-navigation">
   <div class="cs-container">
-        
     <!--Navigation List-->
     <nav class="cs-nav" role="navigation">
       <!--Mobile Nav Toggle-->
@@ -15,17 +14,17 @@
           <span class="cs-line cs-line3" aria-hidden="true"></span>
         </div>
       </button>
-      <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+      <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how many there are-->
       <!-- This also allows for easy substitution of CodeStitch navigations. Just replace the .cs-ul-wrapper in the new navigation with this one -->
       <div class="cs-ul-wrapper">
         <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
           {% set navPages = collections.all | eleventyNavigation %}
-          <!-- Loop through all pages with a eleventyNavigation in the frontmatter -->
+          <!-- Loop through all pages with an eleventyNavigation in the frontmatter -->
           {% for entry in navPages %}
           <!-- Define a hasChild variable to make it easier to test what links are dropdowns-->
           {% set hasChild = entry.children.length %}
 
-          <!-- If this page is a dropdown, give it the appropriate classes, icons and accessibility attributes-->
+          <!-- If this page is a dropdown, give it the appropriate classes, icons, and accessibility attributes-->
           <li
             class="cs-li {% if hasChild %} cs-dropdown {% endif %}"
             {%
@@ -54,7 +53,6 @@
               />
               {% endif %}
             </a>
-
             <!-- Dropdowns have another ul/li set up within the parent li. Render in the same way as a normal link -->
             {% if hasChild %}
             <ul class="cs-drop-ul">
@@ -69,33 +67,26 @@
             {% endif %}
           </li>
           {% endfor %}
-          <div class="social-container">
+          <li class="social-container">
             <h3 class="cs-social">
               <span> Join </span>
               <span> the crew </span>
             </h3>
-            <a
-              href="https://www.instagram.com/cheandcherice/"
-              class="icon-ig icon--instagram"
-            >
-              <i class="ri-instagram-line"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/cheandcherice/"
-              class="icon-fb icon--facebook"
-            >
-              <i class="ri-facebook-line"></i>
-            </a>
-            <a
-              href="https://youtube.com/user/87cherice"
-              class="icon-yt icon--youtube"
-            >
-              <i class="ri-youtube-line"></i>
-            </a>
-            <a href="/" class="icon-p icon--pinterest">
-              <i class="ri-pinterest-line"></i>
-            </a>
-          </div>
+            <ul class="social-links">
+              <li class="icon-ig icon--instagram" aria-label="Instagram Link">
+                <i class="ri-instagram-line"></i>
+              </li>
+              <li class="icon-fb icon--facebook" aria-label="Facebook Link">
+                <i class="ri-facebook-line"></i>
+              </li>
+              <li class="icon-yt icon--youtube" aria-label="YouTube Link">
+                <i class="ri-youtube-line"></i>
+              </li>
+              <li class="icon-p icon--pinterest" aria-label="Pinterest Link">
+                <i class="ri-pinterest-line"></i>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </nav>
