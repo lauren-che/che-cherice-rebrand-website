@@ -128,100 +128,6 @@
 }
 
 /*-- -------------------------- -->
-<---   Interior Page Header     -->
-<--- -------------------------- -*/
-
-/* Mobile */
-@media only screen and (min-width: 0em) {
-  #int-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 1;
-    min-height: 30vh;
-    padding-top: calc(50 / 16 * 1rem);
-
-    &:before {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 100%;
-      width: 100%;
-      background: #000;
-      opacity: 0.7;
-      top: 0;
-      left: 0;
-      z-index: -1;
-    }
-
-    picture {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      z-index: -2;
-
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-      }
-    }
-
-    h1 {
-      color: #fff;
-      font-size: 64/30rem;
-      text-align: center;
-      margin: 0 auto;
-      position: relative;
-      width: 96%;
-      max-width: calc(500 / 16 * 1rem);
-      margin-top: calc(70 / 16 * 1rem);
-      margin-bottom: calc(30 / 16 * 1rem);
-    }
-
-    p {
-      color: #fff;
-      text-align: center;
-      max-width: calc(400 / 16 * 1rem);
-      margin: auto;
-      margin-bottom: calc(30 / 16 * 1rem);
-      display: block;
-      width: 96%;
-    }
-  }
-}
-
-/* Tablet */
-@media only screen and (min-width: 48em) {
-  #int-hero {
-    font-size: 100%;
-
-    h1 {
-      font-size: calc(64 / 16 * 1rem);
-    }
-  }
-}
-
-/* Small Desktop */
-@media only screen and (min-width: 64em) {
-  #int-hero {
-    min-height: calc(300 / 16 * 1rem);
-    height: auto;
-    padding-top: calc(180 / 16 * 1rem);
-    padding-block-end: calc(100 / 16 * 1rem);
-    background-attachment: fixed;
-    font-size: inherit;
-  }
-}
-
-/*-- -------------------------- -->
 <---        Main Content        -->
 <--- -------------------------- -*/
 
@@ -517,6 +423,7 @@
     flex-direction: column;
     box-sizing: border-box;
     row-gap: calc(50 / 16 * 1em);
+    padding-top: calc(40 / 16 * 1rem);
 
     .blog-featured-group {
       padding: calc(35 / 16 * 1em) calc(30 / 16 * 1em);
@@ -626,6 +533,7 @@
     max-width: calc(795 / 16 * 1em);
     width: 100%;
     display: block;
+    padding-top: calc(40 / 16 * 1rem);
     .blog-mainImage {
       width: 100%;
       height: clamp(200px, 30vw, 400px);
@@ -637,7 +545,7 @@
 
       img {
         position: absolute;
-        top: 0;
+        top: 0rem;
         left: 0;
         height: 100%;
         width: 100%;
