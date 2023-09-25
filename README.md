@@ -12,7 +12,7 @@ The primary goals of this project were as follows:
 
 - **Performance Improvement**: The original website experienced slow loading times, negatively impacting user experience. The new website aimed to provide a faster and more responsive browsing experience.
 
-- **SEO Enhancement**: The previous website had poor SEO optimization, resulting in low search engine visibility. The rebranded website focused on implementing SEO best practices to improve search rankings and visibility.
+- **On Page SEO Optimization**: The previous website had poor On Page SEO optimization, resulting in low search engine visibility. The rebranded website focused on maximizing the website's visibility in search engine results, so I implemented comprehensive on-page SEO optimization strategies. This involved fine-tuning individual web pages to enhance their search engine rankings and overall discoverability. Elements such as meta tags, keyword placement, and content structure were meticulously optimized to ensure that each page is primed for optimal search engine performance.
 
 - **Modern Design**: The outdated design of the original website did not resonate with our target audience. The new website sought to adopt a modern and visually appealing design that aligns better with our simple modern style.
 
