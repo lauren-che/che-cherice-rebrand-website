@@ -57,3 +57,11 @@ One of the notable achievements of this project is the outstanding performance a
 - **SEO (100)**: Comprehensive search engine optimization efforts have yielded a perfect SEO score, enhancing the website's visibility and discoverability on search engines.
 
 These exceptional scores reflect my commitment to delivering a high-quality website that excels in terms of performance, accessibility, best practices, and SEO optimization.
+
+##### Lighthouse Desktop Report
+
+![Lighthouse Desktop Report](src/assets/images/lighthouse-report-desktop.png)
+
+##### Lighthouse Mobile Report
+
+![Lighthouse Mobile Report](src/assets/images/lighthouse-report-mobile.png)
