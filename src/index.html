@@ -19,7 +19,6 @@ eleventyNavigation:
 
 {# Meta Tag for Pinterest #}
 <meta name="p:domain_verify" content="a48a4c8591852a917fd28b1613520fc3" />
-
 <!-- Script for Netlify Identity -->
 <script
   defer
@@ -35,6 +34,21 @@ eleventyNavigation:
       }
     });
   }
+</script>
+
+{# Google Tag Manager #}
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-1LYP6X8NLF"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-1LYP6X8NLF');
 </script>
 {% endblock %} {% block body %}
 
@@ -208,11 +222,11 @@ eleventyNavigation:
       <span class="cs-topper">Married Millennials</span>
       <h2 class="cs-title">Lifestyle Bloggers & Podcasters</h2>
       <p class="cs-text">
-        Welcome to our loving space, where we're all about celebrating life, love,
-        and adventure. We are not just Lifestyle Bloggers – we are storytellers
-        sharing our travel discoveries with you. Whether we are savoring global
-        flavors, soaking up diverse cultures, or spilling the tea on the latest
-        lifestyle goods, we've got you covered.
+        Welcome to our loving space, where we're all about celebrating life,
+        love, and adventure. We are not just Lifestyle Bloggers – we are
+        storytellers sharing our travel discoveries with you. Whether we are
+        savoring global flavors, soaking up diverse cultures, or spilling the
+        tea on the latest lifestyle goods, we've got you covered.
       </p>
       <p class="cs-text">
         And hey, we're not stopping there. As Married Millennial Podcasters,
