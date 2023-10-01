@@ -1,4 +1,3 @@
-<!-- After deploying the project to a live domain, we need to go to www.xml-sitemaps.com to create a sitemap and paste the contents in here -->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
